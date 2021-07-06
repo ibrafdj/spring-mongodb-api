@@ -2,22 +2,16 @@
 A REST API Spring Boot server for Read operations in MongoDB. This application will accept a GET HTTP requests to perform READ ALL operation form a MongoDB database.
 
 ## How to install and run this application
-Make sure Node is installed in your system. Navigate to the express-mongodb-api folder and use terminal to run the following command to build the application:
+Make sure Node is installed in your system. Navigate to the spring-mongodb-api folder and use terminal to run the following command to build the application:
 
 ```bash
-npm install
+./mvnw clean package
 ```
 
 Once the application is built, run the application using the following command:
 
 ```bash
-npm start
-```
-
-or alternatively:
-
-```bash
-nodemon src/index
+./mvnw spring-boot:run
 ```
 
 ## The Database
